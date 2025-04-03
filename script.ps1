@@ -1,4 +1,5 @@
 # Display fake RAM size
+cls
 $fakeRam = Get-Random -Minimum 16 -Maximum 128
 Write-Host "[UEFI Firmware v9.4.2a] Detected DDR5-9000MHz DIMMs" -ForegroundColor Cyan
 Write-Host "`n[0x000000F4] Initializing memory remap..." -ForegroundColor Yellow
