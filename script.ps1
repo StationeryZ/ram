@@ -105,3 +105,4 @@ Start-Process "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 Write-Host "`n`n[0x00000000] Installation complete. System stability uncertain." -ForegroundColor Red
 Write-Host "WARNING: Memory timings exceed JEDEC specifications by $(Get-Random -Minimum 12 -Maximum 400)%" -ForegroundColor Yellow
 Write-Host "Suggestion: Run memtest86+ for $(Get-Random -Minimum 7 -Maximum 24) cycles to verify integrity" -ForegroundColor Cyan
+Exit
